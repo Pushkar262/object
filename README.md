@@ -19,6 +19,7 @@ colors = np.random.uniform(0, 255, size=(len(classes), 3))
 # img = cv2.imread("img/sample_dog.jpg")
 img = cv2.imread("img/pic2.jpg")
 
+#resize the frame of objects
 img = cv2.resize(img, None, fx=0.5, fy=0.4)
 height, width, channels = img.shape
 
